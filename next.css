@@ -1,0 +1,128 @@
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+
+.container .btn:hover {
+  background-color: black;
+}
+.nature{
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}margin-top: 0px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+#navbar {
+	color: green;
+    background-color: green; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+.navbar-custom {
+    color: white;
+    background-color: green;
+	position:fixed-top;
+	font-size: 20px;
+}
+	.active {
+  background-color: white;
+  color: black;
+}
+#left {
+        width: 300px;
+        float: left;
+        padding: 15px;
+        margin: 10px;
+        background: #f8f8f8;
+        border: solid 2px black;
+       
+}
+
+ 
+#center {
+        width: 325px;
+        float: left;
+        padding: 15px;
+        margin: 10px;
+        border: solid 2px black;
+       
+}
+ 
+#right {
+        width: 300px;
+        padding: 15px;
+        margin: 10px;
+        float: left;
+        background: #f0efef;
+        border: solid 2px black;
+       
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right:50px;
+  margin-left:50px;
+}
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0px 0px;
+    cursor: pointer;
+    float: right;
+}
+.p2{
+border: solid 2px black;
+}
+.p1{
+border: solid 2px black;
+}
+.g{
+text-decoration: underline;
+text-align: center;
+font-size: 50px;
+
+
+}
+.ab{
+font-size:20px;	
+}
+
